@@ -10,6 +10,7 @@ program
 	.version(pkg.version)
 	.description(pkg.description)
 	.option('-n, --number <number>', 'Get only top stories', parseInt)
+	.command('open <number>', 'Open the story in browser', parseInt)
 	.parse(process.argv);
 
 if (program.number) {
