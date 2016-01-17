@@ -1,16 +1,21 @@
 {
   "name": "medium-cli",
   "version": "1.0.0",
-  "description": "Medium for Hackers - CLI to Medium",
+  "description": "Medium for Hackers - A CLI to Medium",
   "main": "medium.js",
   "dependencies": {
+    "chalk": "^1.1.1",
     "cheerio": "^0.19.0",
     "commander": "^2.9.0",
     "fs": "^0.0.2",
     "html-to-text": "^1.5.1",
+    "inquirer": "^0.11.2",
     "open": "0.0.5",
     "path": "^0.12.7",
-    "request": "^2.67.0"
+    "q": "^1.4.1",
+    "request": "^2.67.0",
+    "request-promise": "^2.0.0",
+    "url": "^0.11.0"
   },
   "keywords": [
     "medium",
