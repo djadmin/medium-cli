@@ -24,7 +24,7 @@ function parseContent(html) {
 	var $ = cheerio.load(html);
 	var articleMarkup = $('main.postArticle-content').html();
 	var content = getTextFromHtml(articleMarkup);
-	return printArticle(content);
+	return content;
 }
 
 function requestContent(url) {
