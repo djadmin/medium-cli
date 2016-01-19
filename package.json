@@ -1,7 +1,7 @@
 {
   "name": "medium-cli",
   "version": "1.0.0",
-  "description": "Medium for Hackers - A CLI to Medium",
+  "description": "Medium for Hackers - A CLI to Medium Stories",
   "main": "medium.js",
   "dependencies": {
     "chalk": "^1.1.1",
