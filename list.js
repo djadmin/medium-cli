@@ -12,7 +12,7 @@ var reader = require('./reader');
 
 function constructChoices(posts) {
 	var choices = [];
-	var space = ' ', separator = '--';
+	var space = ' ', separator = ' - ';
 	posts.forEach(function (post, index) {
 		var line = '';
 		var number = (index + 1) + '.',
