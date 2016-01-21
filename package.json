@@ -19,6 +19,14 @@
     "string-stream": "0.0.7",
     "url": "^0.11.0"
   },
+  "homepage": "https://github.com/djadmin/medium-cli#readme",
+  "bugs": {
+      "url": "https://github.com/djadmin/medium-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djadmin/medium-cli.git"
+  },
   "keywords": [
     "medium",
     "cli",
