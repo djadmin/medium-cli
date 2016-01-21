@@ -49,10 +49,11 @@ function validateUrl (url) {
 }
 
 function show(url) {
-	if (!validateUrl(url)) {
-		console.log('Sorry! Only Medium articles are allowed!');
-		return;
-	}
+	// Stop validating url as medium now allows custom urls
+	// if (!validateUrl(url)) {
+	// 	console.log('Sorry! Only Medium articles are allowed!');
+	// 	return;
+	// }
 	showContent(url);
 }
 
