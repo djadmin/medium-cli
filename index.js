@@ -1,12 +1,13 @@
 #!/usr/bin/env node
 'use strict';
 var path = require('path');
-var pkg = require(path.join(__dirname, 'package.json'));
 var program = require('commander');
 
-var list = require('./list');
-var reader = require('./reader');
-var op = require('./opener');
+var list = require('./lib/list');
+var reader = require('./lib/reader');
+var op = require('./lib/opener');
+
+var pkg = require(path.join(__dirname, 'package.json'));
 
 program
 	.version(pkg.version)

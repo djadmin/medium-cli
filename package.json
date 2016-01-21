@@ -28,6 +28,6 @@
   "author": "Dheeraj Joshi <dheerajjoshi1991@gmail.com>",
   "license": "MIT",
   "bin": {
-    "medium": "medium.js"
+    "medium": "index.js"
   }
 }
