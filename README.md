@@ -37,25 +37,25 @@ There are three commands available: `medium top`, `medium read`, `medium open`
 #### top
 `$ medium top`
 
-List Medium Top Stories
+> List Medium Top Stories
     
 `$ medium top -n 5`
 
-List only top 5 Medium Stories
+> List only top 5 Medium Stories
 
 #### read
-`$medium read <url>`
+`$ medium read <url>`
 
-Read the story right in your terminal
+> Read the story right in your terminal
 
 #### open
-`medium open <url>`
+`$ medium open <url>`
 
-Opens it in your browser
+> Opens it in your browser
 
-`medium open -a firefox <url>`
+`$ medium open -a firefox <url>`
 
-Opens it in the given application, like it opens the url using firefox in above example.
+> Opens it in the given application, like it opens the url using firefox in above example.
 
 
 ## Contributions
