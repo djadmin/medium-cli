@@ -2,7 +2,7 @@
   "name": "medium-cli",
   "version": "1.0.0",
   "description": "Medium for Hackers - A CLI to Medium Stories",
-  "main": "medium.js",
+  "main": "index.js",
   "dependencies": {
     "chalk": "^1.1.1",
     "cheerio": "^0.19.0",
@@ -31,8 +31,11 @@
     "medium",
     "cli",
     "geeks",
-    "hackers"
+    "hackers",
+    "top",
+    "post"
   ],
+  "preferGlobal": true,
   "author": "Dheeraj Joshi <dheerajjoshi1991@gmail.com>",
   "license": "MIT",
   "bin": {
