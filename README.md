@@ -1,3 +1,5 @@
+[![NPM](https://nodei.co/npm/mediumcli.png)](https://www.npmjs.com/package/mediumcli)
+
 medium-cli
 ==========
 
@@ -6,7 +8,7 @@ Now read awesome medium articles right in your terminal.
 
 ![](http://i.imgur.com/nO3RyMT.gif)
 
-=====
+==========
 ## Installation
 
 `$ npm install -g djadmin/medium-cli`
