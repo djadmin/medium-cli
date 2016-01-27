@@ -1,6 +1,6 @@
 {
   "name": "mediumcli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Medium for Hackers - A CLI to Medium Stories",
   "main": "index.js",
   "dependencies": {
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/djadmin/medium-cli#readme",
   "bugs": {
-      "url": "https://github.com/djadmin/medium-cli/issues"
+    "url": "https://github.com/djadmin/medium-cli/issues"
   },
   "repository": {
     "type": "git",
