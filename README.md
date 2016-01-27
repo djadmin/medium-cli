@@ -11,7 +11,7 @@ Now read awesome medium articles right in your terminal.
 ==========
 ## Installation
 
-`$ npm install -g djadmin/medium-cli`
+`$ npm install -g mediumcli`
 
 ## Docs
     Usage: medium [options] [command]
