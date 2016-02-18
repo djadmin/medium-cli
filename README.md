@@ -1,14 +1,11 @@
-[![NPM](https://nodei.co/npm/mediumcli.png)](https://www.npmjs.com/package/mediumcli)
-
-medium-cli
+medium-cli [![npm version](https://badge.fury.io/js/mediumcli.svg)](https://www.npmjs.com/package/mediumcli) [![npm](https://img.shields.io/npm/dt/mediumcli.svg)](https://www.npmjs.com/package/mediumcli)
 ==========
 
-Medium for Hackers - A CLI for Medium Stories. 
+Medium for Hackers - A CLI for Medium Stories.
 Now read awesome medium articles right in your terminal.
 
 ![](http://i.imgur.com/nO3RyMT.gif)
 
-==========
 ## Installation
 
 `$ npm install -g mediumcli`
@@ -26,13 +23,13 @@ Now read awesome medium articles right in your terminal.
 
     -h, --help     output usage information
     -V, --version  output the version number
-    
+
     top [options]
     n, --number <int>", "specify number of stories
-    
+
     open [options] <url>
     -a, --app <application>  specify app to open the url. Eg: firefox
-    
+
 ## Usage
 There are three commands available: `medium top`, `medium read`, `medium open`
 
@@ -40,7 +37,7 @@ There are three commands available: `medium top`, `medium read`, `medium open`
 `$ medium top`
 
 > List Medium Top Stories
-    
+
 `$ medium top -n 5`
 
 > List only top 5 Medium Stories
