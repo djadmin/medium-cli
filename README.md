@@ -1,16 +1,18 @@
 medium-cli [![npm version](https://badge.fury.io/js/mediumcli.svg)](https://www.npmjs.com/package/mediumcli) [![npm](https://img.shields.io/npm/dt/mediumcli.svg)](https://www.npmjs.com/package/mediumcli)
 ==========
 
-Medium for Hackers - A CLI for Medium Stories.
+Medium for Hackers - A CLI for reading [Medium](https://medium.com) Stories.
 Now read awesome medium articles right in your terminal.
 
 ![](http://i.imgur.com/nO3RyMT.gif)
 
-## Installation
+Installation
+------------
 
 `$ npm install -g mediumcli`
 
-## Docs
+Docs
+----
     Usage: medium [options] [command]
 
     Commands:
@@ -30,31 +32,32 @@ Now read awesome medium articles right in your terminal.
     open [options] <url>
     -a, --app <application>  specify app to open the url. Eg: firefox
 
-## Usage
+Usage
+-----
 There are three commands available: `medium top`, `medium read`, `medium open`
 
 #### top
 `$ medium top`
 
-> List Medium Top Stories
+List Medium Top Stories
 
 `$ medium top -n 5`
 
-> List only top 5 Medium Stories
+List only top 5 Medium Stories
 
 #### read
 `$ medium read <url>`
 
-> Read the story right in your terminal
+Read the story right in your terminal
 
 #### open
 `$ medium open <url>`
 
-> Opens it in your browser
+Opens it in your browser
 
 `$ medium open -a firefox <url>`
 
-> Opens it in the given application, like it opens the url using firefox in above example.
+Opens it in the given application, like it opens the url using firefox in above example.
 
 
 Issues
