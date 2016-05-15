@@ -37,7 +37,7 @@ Usage
 -----
 There are three commands available: `medium top`, `medium read`, `medium open`
 
-##### top command
+#### top command
 `$ medium top`
 
 List Medium Top Stories
@@ -46,12 +46,12 @@ List Medium Top Stories
 
 List only top 5 Medium Stories
 
-##### read command
+#### read command
 `$ medium read <url>`
 
 Read the story right in your terminal
 
-##### open command
+#### open command
 `$ medium open <url>`
 
 Opens it in your browser
