@@ -2,7 +2,8 @@ medium-cli [![npm version](https://badge.fury.io/js/mediumcli.svg)](https://www.
 ==========
 
 Medium for Hackers - A CLI for reading [Medium](https://medium.com) Stories.
-Now read awesome medium articles right in your terminal.
+
+It helps you read awesome medium articles right in your terminal.
 
 ![](http://i.imgur.com/nO3RyMT.gif)
 
@@ -36,7 +37,7 @@ Usage
 -----
 There are three commands available: `medium top`, `medium read`, `medium open`
 
-#### top
+##### top command
 `$ medium top`
 
 List Medium Top Stories
@@ -45,12 +46,12 @@ List Medium Top Stories
 
 List only top 5 Medium Stories
 
-#### read
+##### read command
 `$ medium read <url>`
 
 Read the story right in your terminal
 
-#### open
+##### open command
 `$ medium open <url>`
 
 Opens it in your browser
