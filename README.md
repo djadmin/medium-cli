@@ -57,9 +57,22 @@ There are three commands available: `medium top`, `medium read`, `medium open`
 > Opens it in the given application, like it opens the url using firefox in above example.
 
 
-## Contributions
-medium-cli is developed in Node.js and would love to accept pull requests for any issues or feature request.
+Issues
+------
 
-## License
+Feel free to submit issues and enhancement requests.
+
+
+Contributing
+------------
+
+medium-cli is written in NodeJs and would love to accept pull requests for any issues or feature request.
+
+[Read more on contributing](./CONTRIBUTING.md).
+
+
+License
+-------
+
 Copyright (c) 2016 Dheeraj Joshi
 Licensed under the [MIT license](http://opensource.org/licenses/MIT).
