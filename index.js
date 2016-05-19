@@ -5,7 +5,7 @@ var program = require('commander');
 
 var list = require('./lib/list');
 var reader = require('./lib/reader');
-var op = require('./lib/opener');
+var open = require('open');
 
 var pkg = require(path.join(__dirname, 'package.json'));
 
@@ -36,7 +36,7 @@ program
 	.option('-a, --app <application>', 'specify app to open the url. Eg: firefox')
 	.action(function(url, options){
 		var app = options.app || '';
-		op.open(url, app);
+		open(url, app);
 	});
 
 program.parse(process.argv);
