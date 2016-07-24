@@ -16,7 +16,7 @@ program
 program
 	.command('top')
 	.description('List Medium Top Stories')
-	.option('-n, --number <int>", "specify number of stories')
+	.option('-n, --number <int>', 'specify number of stories')
 	.action(function(options){
 		var count = options.number || 20;
 		list.top(count);
@@ -32,7 +32,7 @@ program
 
 program
 	.command('open <url>')
-	.description('Opens it in your defaut browser')
+	.description('Opens it in your default browser')
 	.option('-a, --app <application>', 'specify app to open the url. Eg: firefox')
 	.action(function(url, options){
 		var app = options.app || '';
