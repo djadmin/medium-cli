@@ -18,9 +18,11 @@ Docs
 
     Commands:
 
-    top [options]         List Medium Top Stories
-    read <url>            Read the story right in your terminal
-    open [options] <url>  Opens it in your browser
+    top [options]               List Medium Top Stories
+    tag [options] <tag>         List trending Medium Stories by tag
+    author [options] <author>   List Medium Stories by author
+    read <url>                  Read the story right in your terminal
+    open [options] <url>        Opens it in your browser
 
     Options:
 
@@ -28,8 +30,16 @@ Docs
     -V, --version  output the version number
 
     top [options]
-    n, --number <int>", "specify number of stories
-
+    n, --number <int>, specify number of stories
+    
+    tag [options]
+    -n, --number <int>  specify number of stories
+    -l, --latest        get latest instead of trending stories
+    
+    author [options]
+    n, --number <int>, specify number of stories
+    
+    
     open [options] <url>
     -a, --app <application>  specify app to open the url. Eg: firefox
 
@@ -57,6 +67,11 @@ Read the story right in your terminal
 Opens it in your browser
 
 `$ medium open -a firefox <url>`
+
+Also, you can search by Author and Tags.
+`$ medium author _ericelliott`
+`$ medium tag javascript`
+`$ medium tag javascript --latest`
 
 Opens it in the given application, like it opens the url using firefox in above example.
 
