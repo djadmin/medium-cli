@@ -66,14 +66,18 @@ Read the story right in your terminal
 
 Opens it in your browser
 
-`$ medium open -a firefox <url>`
-
-Also, you can search by Author and Tags.
-`$ medium author _ericelliott`
-`$ medium tag javascript`
-`$ medium tag javascript --latest`
+`$ medium open -a firefox <url>`  
 
 Opens it in the given application, like it opens the url using firefox in above example.
+
+####Also, you can search by **Author and Tags**
+
+`$ medium author _ericelliott`  
+
+`$ medium tag javascript`   
+
+`$ medium tag javascript --latest`  
+
 
 
 Issues
