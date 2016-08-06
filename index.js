@@ -45,6 +45,17 @@ program
 	});
 
 program
+	.command('search')
+	.alias('s')
+	.arguments('<searchTerms...>')
+	.description('Search for stories')
+	.option('-n, --number <int>', 'specify number of stories')
+	.action(function(searchTerms, options){
+		var count = options.number || 10;
+		list(count, 'search', searchTerms.join('%20'))
+	});
+
+program
 	.command('read <url>')
 	.description('Read the story right in your terminal')
 	.action(function(url){
