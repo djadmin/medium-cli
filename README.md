@@ -18,11 +18,12 @@ Docs
 
     Commands:
 
-    top [options]               List Medium Top Stories
-    tag [options] <tag>         List trending Medium Stories by tag
-    author [options] <author>   List Medium Stories by author
-    read <url>                  Read the story right in your terminal
-    open [options] <url>        Opens it in your browser
+    top [options]                       List Medium Top Stories
+    tag [options] <tag>                 List trending Medium Stories by tag
+    author [options] <author>           List Medium Stories by author
+    search|s [options] <searchTerms...> Search for stories
+    read <url>                          Read the story right in your terminal
+    open [options] <url>                Opens it in your browser
 
     Options:
 
@@ -31,21 +32,23 @@ Docs
 
     top [options]
     n, --number <int>, specify number of stories
-    
+
     tag [options]
     -n, --number <int>  specify number of stories
     -l, --latest        get latest instead of trending stories
-    
+
     author [options]
-    n, --number <int>, specify number of stories
-    
-    
+    -n, --number <int>, specify number of stories
+
+    search|s [options] <searchTerms...>
+    -n, --number <int>  specify number of stories
+
     open [options] <url>
     -a, --app <application>  specify app to open the url. Eg: firefox
 
 Usage
 -----
-There are three commands available: `medium top`, `medium read`, `medium open`
+The commands available are: `medium top`, `medium read`, `medium open` and more..
 
 #### top command
 `$ medium top`
@@ -70,7 +73,7 @@ Opens it in your browser
 
 Opens it in the given application, like it opens the url using firefox in above example.
 
-####Also, you can search by **Author and Tags**
+####Also, you can search by **Author, Tags or Keyword**
 
 `$ medium author _ericelliott`  
 
@@ -78,7 +81,7 @@ Opens it in the given application, like it opens the url using firefox in above 
 
 `$ medium tag javascript --latest`  
 
-
+`$ medium search security`
 
 Issues
 ------
