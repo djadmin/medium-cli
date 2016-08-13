@@ -29,6 +29,7 @@ Docs
 
     -h, --help     output usage information
     -V, --version  output the version number
+    -o, --open     open story in browser
 
     top [options]
     n, --number <int>, specify number of stories
@@ -82,6 +83,9 @@ Opens it in the given application, like it opens the url using firefox in above 
 `$ medium tag javascript --latest`  
 
 `$ medium search security`
+
+####Another Example
+`$ medium author dheerajhere --open` will open the selected story in browser
 
 Issues
 ------
