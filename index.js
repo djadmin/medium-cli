@@ -17,9 +17,10 @@ program
 	.command('top')
 	.description('List Medium Top Stories')
 	.option('-n, --number <int>', 'specify number of stories')
+	.option('-o, --open', 'Open the story in browser')
 	.action(function(options){
 		var count = options.number || 20;
-		list(count, 'top');
+		list('top', { count: count, open: options.open });
 	});
 
 program
@@ -28,10 +29,16 @@ program
 	.description('List trending Medium Stories by tag')
 	.option('-n, --number <int>', 'specify number of stories')
 	.option('-l, --latest', 'get latest instead of trending stories')
+	.option('-o, --open', 'Open the story in browser')
 	.action(function(tag, options){
 		var count = options.number || 10;
 		var latest = options.latest || false;
-		list(count, 'tag', tag, latest);
+		list('tag', {
+			value: tag,
+			count: count,
+			latest: latest,
+			open: options.open
+		});
 	});
 
 program
@@ -39,9 +46,14 @@ program
 	.arguments('<author>')
 	.description('List Medium Stories by author')
 	.option('-n, --number <int>', 'specify number of stories')
+	.option('-o, --open', 'Open the story in browser')
 	.action(function(author, options){
 		var count = options.number || 10;
-		list(count, 'author', author);
+		list('author', {
+			value: author,
+			count: count,
+			open: options.open
+		});
 	});
 
 program
@@ -50,9 +62,14 @@ program
 	.arguments('<searchTerms...>')
 	.description('Search for stories')
 	.option('-n, --number <int>', 'specify number of stories')
+	.option('-o, --open', 'Open the story in browser')
 	.action(function(searchTerms, options){
 		var count = options.number || 10;
-		list(count, 'search', searchTerms.join('%20'))
+		list('search', {
+			value: searchTerms.join('%20'),
+			count: count,
+			open: options.open
+		});
 	});
 
 program
@@ -67,7 +84,6 @@ program
 	.description('Opens it in your default browser')
 	.option('-a, --app <application>', 'specify app to open the url. Eg: firefox')
 	.action(function(url, options){
-		var app = options.app || '';
 		open(url, app);
 	});
 
