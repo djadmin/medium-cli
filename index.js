@@ -2,6 +2,7 @@
 'use strict';
 var path = require('path');
 var program = require('commander');
+//var cliMd = require("mdy");
 
 var list = require('./lib/list');
 var reader = require('./lib/reader');
@@ -18,9 +19,14 @@ program
 	.description('List Medium Top Stories')
 	.option('-n, --number <int>', 'specify number of stories')
 	.option('-o, --open', 'Open the story in browser')
+	.option('-m, --markdown', 'View the story in Markdown format')
 	.action(function(options){
 		var count = options.number || 20;
-		list('top', { count: count, open: options.open });
+		list('top', { 
+			count: count, 
+			open: options.open,
+			markdown: options.markdown
+ 		});
 	});
 
 program
@@ -30,6 +36,7 @@ program
 	.option('-n, --number <int>', 'specify number of stories')
 	.option('-l, --latest', 'get latest instead of trending stories')
 	.option('-o, --open', 'Open the story in browser')
+	.option('-m, --markdown', 'View the story in Markdown format')
 	.action(function(tag, options){
 		var count = options.number || 10;
 		var latest = options.latest || false;
@@ -37,7 +44,8 @@ program
 			value: tag,
 			count: count,
 			latest: latest,
-			open: options.open
+			open: options.open,
+			markdown: options.markdown
 		});
 	});
 
@@ -47,12 +55,14 @@ program
 	.description('List Medium Stories by author')
 	.option('-n, --number <int>', 'specify number of stories')
 	.option('-o, --open', 'Open the story in browser')
+	.option('-m, --markdown', 'View the story in Markdown format')
 	.action(function(author, options){
 		var count = options.number || 10;
 		list('author', {
 			value: author,
 			count: count,
-			open: options.open
+			open: options.open,
+			markdown: options.markdown
 		});
 	});
 
@@ -63,20 +73,26 @@ program
 	.description('Search for stories')
 	.option('-n, --number <int>', 'specify number of stories')
 	.option('-o, --open', 'Open the story in browser')
+	.option('-m, --markdown', 'View the story in Markdown format')
 	.action(function(searchTerms, options){
 		var count = options.number || 10;
 		list('search', {
 			value: searchTerms.join('%20'),
 			count: count,
-			open: options.open
+			open: options.open,
+			markdown: options.markdown
 		});
 	});
 
 program
 	.command('read <url>')
+	.option('-m, --markdown', 'View the story in Markdown format')
 	.description('Read the story right in your terminal')
-	.action(function(url){
-		reader.show(url);
+	.action(function(url, options){
+		reader.show({
+			url: url,
+			markdown: options.markdown
+		});
 	});
 
 program

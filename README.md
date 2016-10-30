@@ -30,13 +30,14 @@ Docs
     -h, --help     output usage information
     -V, --version  output the version number
     -o, --open     open story in browser
+    -m, --markdown      render selected story as markdown in the terminal
 
     top [options]
     n, --number <int>, specify number of stories
 
     tag [options]
     -n, --number <int>  specify number of stories
-    -l, --latest        get latest instead of trending stories
+    -l, --latest        get latest instead of trending 
 
     author [options]
     -n, --number <int>, specify number of stories
