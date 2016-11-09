@@ -30,7 +30,7 @@ Docs
     -h, --help     output usage information
     -V, --version  output the version number
     -o, --open     open story in browser
-    -m, --markdown      render selected story as markdown in the terminal
+    -m, --markdown render selected story as markdown in the terminal
 
     top [options]
     n, --number <int>, specify number of stories
