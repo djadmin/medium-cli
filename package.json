@@ -1,6 +1,6 @@
 {
   "name": "mediumcli",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Medium for Hackers - A CLI to Medium Stories",
   "main": "index.js",
   "dependencies": {
