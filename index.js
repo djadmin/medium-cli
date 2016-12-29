@@ -100,7 +100,7 @@ program
 	.description('Opens it in your default browser')
 	.option('-a, --app <application>', 'specify app to open the url. Eg: firefox')
 	.action(function(url, options){
-		open(url, app);
+		open(url, options.app);
 	});
 
 program.parse(process.argv);
