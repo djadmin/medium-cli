@@ -1,4 +1,4 @@
-medium-cli [![npm version](https://badge.fury.io/js/mediumcli.svg)](https://www.npmjs.com/package/mediumcli) [![npm](https://img.shields.io/npm/dt/mediumcli.svg)](https://www.npmjs.com/package/mediumcli) [![npm dep](https://david-dm.org/djadmin/medium-cli.svg)](https://david-dm.org/djadmin/medium-cli.svg)
+medium-cli [![npm version](https://badge.fury.io/js/mediumcli.svg)](https://www.npmjs.com/package/mediumcli) [![npm](https://img.shields.io/npm/dt/mediumcli.svg)](https://www.npmjs.com/package/mediumcli) [![npm dep](https://david-dm.org/djadmin/medium-cli.svg)](https://david-dm.org/djadmin/medium-cli)
 ==========
 
 Medium for Hackers - A CLI for reading [Medium](https://medium.com) Stories.
