@@ -75,7 +75,7 @@ Opens it in your browser
 
 Opens it in the given application, like it opens the url using firefox in above example.
 
-####Also, you can search by **Author, Tags or Keyword**
+#### Also, you can search by **Author, Tags or Keyword**
 
 `$ medium author _ericelliott`  
 
@@ -85,7 +85,7 @@ Opens it in the given application, like it opens the url using firefox in above 
 
 `$ medium search security`
 
-####Another Example
+#### Another Example
 `$ medium author dheerajhere --open` will open the selected story in browser
 
 Issues
