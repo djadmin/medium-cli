@@ -1,4 +1,4 @@
-medium-cli [![npm version](https://badge.fury.io/js/mediumcli.svg)](https://www.npmjs.com/package/mediumcli) [![npm](https://img.shields.io/npm/dt/mediumcli.svg)](https://www.npmjs.com/package/mediumcli) [![npm dep](https://david-dm.org/djadmin/medium-cli.svg)](https://david-dm.org/djadmin/medium-cli)
+medium-cli [![npm version](https://badge.fury.io/js/mediumcli.svg)](https://www.npmjs.com/package/mediumcli) [![npm](https://img.shields.io/npm/dt/mediumcli.svg)](https://www.npmjs.com/package/mediumcli)
 ==========
 
 Medium for Hackers - A CLI for reading [Medium](https://medium.com) Stories.
@@ -18,12 +18,12 @@ Docs
 
     Commands:
 
-    top [options]                       List Medium Top Stories
-    tag [options] <tag>                 List trending Medium Stories by tag
-    author [options] <author>           List Medium Stories by author
-    search|s [options] <searchTerms...> Search for stories
-    read <url>                          Read the story right in your terminal
-    open [options] <url>                Opens it in your browser
+    top [options]                           lists Medium Top Stories
+    tag [options] <tag>                     lists trending Medium Stories by tag
+    author [options] <author>               lists Medium Stories by author
+    search|s [options] <searchTerms...>     searches for stories
+    read <url>                              reads the story right in your terminal
+    open [options] <url>                    opens it in your browser
 
     Options:
 
@@ -105,5 +105,5 @@ medium-cli is written in NodeJs and would love to accept pull requests for any i
 License
 -------
 
-Copyright (c) 2016 Dheeraj Joshi
+Copyright (c) 2017 Dheeraj Joshi
 Licensed under the [MIT license](http://opensource.org/licenses/MIT).
