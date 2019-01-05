@@ -16,8 +16,8 @@
     "open": "0.0.5",
     "path": "^0.12.7",
     "q": "^1.4.1",
-    "request": "^2.67.0",
-    "request-promise": "^2.0.0",
+    "request": "^2.79.0",
+    "request-promise": "^2.0.1",
     "string-stream": "0.0.7"
   },
   "homepage": "https://github.com/djadmin/medium-cli#readme",
