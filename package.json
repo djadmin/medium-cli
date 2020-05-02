@@ -18,7 +18,8 @@
     "q": "^1.4.1",
     "request": "^2.67.0",
     "request-promise": "^2.0.0",
-    "string-stream": "0.0.7"
+    "string-stream": "0.0.7",
+    "snyk": "^1.316.2"
   },
   "homepage": "https://github.com/djadmin/medium-cli#readme",
   "bugs": {
@@ -41,5 +42,10 @@
   "license": "MIT",
   "bin": {
     "medium": "index.js"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
+  },
+  "snyk": true
 }
